@@ -1,3 +1,4 @@
+import regex as re
 s = 'azcbobobegghakl'
 def bobCount(string):
 	bob = "bob"
@@ -7,12 +8,4 @@ def bobCount(string):
 			count += 1
 	return count
 
-def bobRgxCount(string):
-	import re
-	count = 0
-	regex = r"([b][o][b])"
-	li = re.findall(regex, string)
-	print li
-	for b in li:
-		count += 1
-	return count 
+
