@@ -1,4 +1,3 @@
-import regex as re
 s = 'azcbobobegghakl'
 def bobCount(string):
 	bob = "bob"
